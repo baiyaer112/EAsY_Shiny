@@ -35,7 +35,7 @@ devtools::install_github('yimingsun12138/ChatGPT4R-CN')
 
 # 三 获取您的chatgpt-api-key
 
-在openAI官网中注册您的账号，并在个人界面生成api_key（如果您无法这么做，请联系我，qq邮箱：3224059800@qq.com），并在API Key中输入您的api，她看起来是这样的`sk-xxxxxxxxxxxxxxxxxxxx`。之后您在右侧文本框就可以输入您想要向chatgpt提问的对话，并点击Send。
+在openAI官网中注册您的账号，并在个人界面生成api_key（如果您无法这么做，请联系我，qq邮箱：3224059800@qq.com），并在API Key中输入您的api，她看起来是这样的`sk-xxxxxxxxxxxxxxxxxxxx`。之后您在右侧文本框就可以输入您想要向chatgpt提问的对话，并点击Send，在此过程中您可以关闭您的代理或是VPN，其并不会影响该程序的对话过程。
 
 
 
