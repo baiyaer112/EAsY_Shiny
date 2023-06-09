@@ -21,7 +21,6 @@ p_load('shiny',
        'devtools')
 # 最后您需要安装GitHub上的包
 devtools::install_github('deepanshu88/shinyCopy2clipboard')
-devtools::install_github('yimingsun12138/ChatGPT4R-CN')
 ```
 
 # 二 启动

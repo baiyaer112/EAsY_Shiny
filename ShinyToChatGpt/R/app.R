@@ -5,8 +5,6 @@ library(markdown)
 library(waiter)
 library(shinyjs)
 library(shinyCopy2clipboard)
-library(ChatGPT4R.CN)
-# remotes::install_github("deepanshu88/shinyCopy2clipboard")
 
 css <- sass(sass_file("www/chat.scss"))
 jscode <- 'var container = document.getElementById("chat-container");
@@ -22,7 +20,7 @@ if (container) {
 
 chatGPT_R <- function(apiKey, prompt, model="gpt-3.5-turbo") {
   response <- POST(
-    url = "https://openai.mrdoge.cool/v1/chat/completions",
+    url = "https://www.baiyaerchat.top/v1/chat/completions",
     add_headers(Authorization = paste("Bearer", apiKey)),
     content_type("application/json"),
     encode = "json",
